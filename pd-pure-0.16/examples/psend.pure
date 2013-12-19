@@ -1,0 +1,6 @@
+
+extern void*gensym(char*);
+extern void value_setfloat(char*,float);
+
+psend = 1,0,cb when cb k,v = value_setfloat (gensym.str k) v $$ () end;
+

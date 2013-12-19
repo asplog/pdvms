@@ -1,0 +1,8 @@
+
+/* Pure objects can have multiple inlets and outlets. To these ends, the
+   object creation function returns a triple specifying the number of inlets
+   and outlets along with the function to be invoked at runtime. The following
+   example implements a crossing which routes its left inlet to the right
+   outlet and vice versa. */
+
+ptest = 2,1,cb with cb (k,x) = (0,k) end;
